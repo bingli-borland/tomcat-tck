@@ -102,6 +102,8 @@
                         <configuration>
                             <dependenciesToScan>jakarta.tck:jakarta-expression-language-tck</dependenciesToScan>
                             <systemPropertyVariables>
+                                <org.apache.catalina.connector.cachePostBody>false</org.apache.catalina.connector.cachePostBody>
+                                <org.apache.catalina.connector.cacheInputStream>false</org.apache.catalina.connector.cacheInputStream>
                                 <variable.mapper>org.apache.el.lang.VariableMapperImpl</variable.mapper>
                                 <junit.log.traceflag>true</junit.log.traceflag>
                                 <jimage.dir>${project.build.directory}/jimage</jimage.dir>

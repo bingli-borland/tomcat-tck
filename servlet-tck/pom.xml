@@ -143,6 +143,8 @@
                             <forkCount>${fork.count}</forkCount>
                             <reuseForks>false</reuseForks>
                             <systemPropertyVariables>
+                                <org.apache.catalina.connector.cachePostBody>false</org.apache.catalina.connector.cachePostBody>
+                                <org.apache.catalina.connector.cacheInputStream>false</org.apache.catalina.connector.cacheInputStream>
                                 <ws_wait>5</ws_wait>
                                 <junit.log.traceflag>true</junit.log.traceflag>
                                 <servlet.tck.support.http2Push>false</servlet.tck.support.http2Push>
@@ -166,6 +168,8 @@
                             </includes>
                             <reuseForks>false</reuseForks>
                             <systemPropertyVariables>
+                                <org.apache.catalina.connector.cachePostBody>false</org.apache.catalina.connector.cachePostBody>
+                                <org.apache.catalina.connector.cacheInputStream>false</org.apache.catalina.connector.cacheInputStream>
                                 <ws_wait>5</ws_wait>
                                 <junit.log.traceflag>true</junit.log.traceflag>
                                 <servlet.tck.support.http2Push>false</servlet.tck.support.http2Push>

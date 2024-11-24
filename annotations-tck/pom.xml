@@ -95,6 +95,8 @@
                         <configuration>
                             <dependenciesToScan>jakarta.annotation:jakarta-annotations-tck</dependenciesToScan>
                             <systemPropertyVariables>
+                                <org.apache.catalina.connector.cachePostBody>false</org.apache.catalina.connector.cachePostBody>
+                                <org.apache.catalina.connector.cacheInputStream>false</org.apache.catalina.connector.cacheInputStream>
                                 <junit.log.traceflag>true</junit.log.traceflag>
                                 <jimage.dir>${project.build.directory}/jimage</jimage.dir>
                                 <sigTestClasspath>${settings.localRepository}/org/apache/tomcat/tomcat-annotations-api/${tomcat.version}/tomcat-annotations-api-${tomcat.version}.jar${path.separator}${project.build.directory}/jimage/java.base</sigTestClasspath>

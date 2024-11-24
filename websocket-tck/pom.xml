@@ -146,6 +146,8 @@
                             <forkCount>${fork.count}</forkCount>
                             <reuseForks>false</reuseForks>
                             <systemPropertyVariables>
+                                <org.apache.catalina.connector.cachePostBody>false</org.apache.catalina.connector.cachePostBody>
+                                <org.apache.catalina.connector.cacheInputStream>false</org.apache.catalina.connector.cacheInputStream>
                                 <arquillian.launch>http</arquillian.launch>
                                 <ws_wait>5</ws_wait>
                                 <lib.name>websockettck</lib.name>
@@ -177,6 +179,8 @@
                             </dependenciesToScan>
                             <reuseForks>false</reuseForks>
                             <systemPropertyVariables>
+                                <org.apache.catalina.connector.cachePostBody>false</org.apache.catalina.connector.cachePostBody>
+                                <org.apache.catalina.connector.cacheInputStream>false</org.apache.catalina.connector.cacheInputStream>
                                 <arquillian.launch>https</arquillian.launch>
                                 <ws_wait>5</ws_wait>
                                 <lib.name>websockettck</lib.name>

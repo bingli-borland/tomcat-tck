@@ -139,6 +139,8 @@
                             <forkCount>${fork.count}</forkCount>
                             <reuseForks>false</reuseForks>
                             <systemPropertyVariables>
+                                <org.apache.catalina.connector.cachePostBody>false</org.apache.catalina.connector.cachePostBody>
+                                <org.apache.catalina.connector.cacheInputStream>false</org.apache.catalina.connector.cacheInputStream>
                                 <webServerHost>localhost</webServerHost>
                                 <webServerPort>8080</webServerPort>
                                 <securedWebServicePort>8443</securedWebServicePort>
