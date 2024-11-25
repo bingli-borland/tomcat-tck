@@ -61,3 +61,13 @@ Alternately, all the TCKs can be downloaded and run at once:
 1. `cd $TOMCAT_TCK\jsp-tck`
 
 1. `mvn verify`
+
+### debug
+```xml
+    <configuration>
+        <includes>
+            <include>ee.jakarta.tck.pages.spec.core_syntax.actions.usebean.RLClientIT</include>
+        </includes>
+    </configuration>
+```
+mvn verify -Dmaven.failsafe.debug=true
