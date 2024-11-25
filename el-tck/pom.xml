@@ -104,6 +104,11 @@
                             <systemPropertyVariables>
                                 <org.apache.catalina.connector.cachePostBody>false</org.apache.catalina.connector.cachePostBody>
                                 <org.apache.catalina.connector.cacheInputStream>false</org.apache.catalina.connector.cacheInputStream>
+                                <org.apache.catalina.connector.compatibleWeblogic>false</org.apache.catalina.connector.compatibleWeblogic>
+                                <org.apache.catalina.connector.compatibleWebsphere>false</org.apache.catalina.connector.compatibleWebsphere>
+                                <org.apache.catalina.connector.encoding.effective.immediately>false</org.apache.catalina.connector.encoding.effective.immediately>
+                                <org.apache.catalina.connector.allowModifyParameterMap>false</org.apache.catalina.connector.allowModifyParameterMap>
+                                <org.apache.catalina.connector.parseDispatchQueryParam>false</org.apache.catalina.connector.parseDispatchQueryParam>
                                 <variable.mapper>org.apache.el.lang.VariableMapperImpl</variable.mapper>
                                 <junit.log.traceflag>true</junit.log.traceflag>
                                 <jimage.dir>${project.build.directory}/jimage</jimage.dir>
